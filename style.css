@@ -21,18 +21,17 @@ header {
     border: 2px dashed white;
     align-content: center;
     max-width: 1000px;
-    margin: auto;
+    margin-bottom: 5px;
     color: bisque;
     letter-spacing: 1px;
     padding: 0px 5px 0px 5px
+    
 }
 
-#image-box {
+#image-box img {
     width: 100%;
     height: 100%;
-    padding-bottom: 5px;
     padding-top: 5px;
-    border: 1px solid white;
     margin-bottom: 5px;
 }
 
@@ -94,10 +93,10 @@ header {
 }
 
 .divider {
-    display: inline-flex;
+    display: inline-block;
     width: 100%;
-    padding: 0;
-    margin: 0;
+    margin-right: 5px;
+    align-items: center;
 }
 
 #nav-body {
