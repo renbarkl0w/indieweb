@@ -24,16 +24,17 @@
             -----
         </section>
         
-        <section class="container" id="left">
+        <section class="container">
             <div class="box-head">
                 navigation
             </div>
             <div class="box-body" id="nav-body">
-                > <a href="webmaster.html">WEBMASTER</a> <br>
-                > <a href="art.html">ART</a> <br>
-                > <a href="library.html">LIBRARY</a> <br>
-                > <a href="blog.html">BLOG</a> <br>
-                > <a href="shrines.html">SHRINES</a> <br>
+                > <a href="webmaster">WEBMASTER</a> <br>
+                > <a href="art">ART</a> <br>
+                > <a href="library">LIBRARY</a> <br>
+                > <a href="blog">BLOG</a> <br>
+                > <a href="shrines">SHRINES</a> <br>
+                > <a href="portfolio">PORTFOLIO</a> <br>
             </div>
             <div class="box-head">
                 off-site
@@ -118,7 +119,7 @@
         </section>
 
         <footer>
-            hand-coded by CARP 𐂯 <a href="credits.html">CREDITS</a> 𐂯 on the web since 03.jun.25
+            hand-coded by CARP 𐂯 <a href="credits">CREDITS</a> 𐂯 on the web since 03.jun.25
         </footer>
     </div>
 
