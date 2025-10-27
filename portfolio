@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="right">
-                blah
+                <img src="assets/projects/Sabine2.png" alt="">
             </div>
         </section>
 
@@ -125,7 +125,8 @@
                 </div>
             </div>
             <div class="right">
-                blah
+                <img src="assets/projects/sword1.png">
+                <img src="assets/projects/sword2.png" alt="">
             </div>
         </section>
 
@@ -145,7 +146,8 @@
                 </div>
             </div>
             <div class="right">
-                blah
+                <img src="assets/projects/AS1.png" alt="">
+                <img src="assets/projects/AS2.png" alt="">
             </div>
         </section>
 
