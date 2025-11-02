@@ -95,21 +95,22 @@ h5 {
 }
 
 .grid-container {
-  columns: 3 200px;
-  column-gap: 1.5rem;
-  width: 100%;
-  margin: 0 auto;
-  div {
-    width: 150px;
-    margin: 0 1.5rem 1.5rem 0;
-    display: inline-block;
-    width: 100%;
-    border: dashed 2px white;
-    padding: 5px;
-  }
+    columns: 3;
+    align-content: center;
+    max-width: 100%;
+    margin-bottom: 5px;
+    height: fit-content;
+    font-family: PixelGamer;
+    font-size: 20px;
+    div {
+        display: inline-block;
+        border: solid 2px white;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
     
     img {
-      width: 100%;
+        width: 100%;
     }
 
     img:hover {
@@ -117,12 +118,12 @@ h5 {
     }
 
     p {
-      margin: 5px 0;
-      padding: 0;
-      text-align: center;
-      font-family: PixelGamer;
+        margin: 5px 0;
+        padding: 0;
+        text-align: center;
+        font-family: PixelGamer;
     }
-  }
+}
 
 .box-head {
     color: white;
