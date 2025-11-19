@@ -9,23 +9,29 @@
 }
 
 .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+
     border: 1px solid white;
-    width: 1100px;
+    width: 1000px;
     margin: auto;
     color: bisque;
     letter-spacing: 1px;
-    background-color: rgba(18, 17, 16, 0.92);
     padding: 5px;
     height: fit-content;
+    background-color: rgba(18, 17, 16, 0.92);
 }
 
 header {
     color: bisque;
     margin: auto;
+    margin-top: 50px;
     font-family: GothicByte;
     font-size: 70px;
     border: 1px solid white;
-    width: 1100px;
+    width: 1000px;
     color: bisque;
     letter-spacing: 1px;
     background-color: rgba(18, 17, 16, 0.92);
@@ -36,7 +42,16 @@ header {
     text-align: center;
 }
 
-.box {
+.div1 {    
+    border: 2px dashed white;
+    color: bisque;
+    letter-spacing: 1px;
+    padding: 0px 5px 0px 5px;
+    height: fit-content;
+    background-color: rgba(18, 17, 16, 0.92);
+}
+
+.div2 {
     grid-column: span 2 / span 2;
 
     border: 2px dashed white;
@@ -46,16 +61,7 @@ header {
     font-family: PixelGamer;
     font-size: 20px;
     padding: 20px;
-    text-align: center;
-}
-
-#credits {
-    letter-spacing: 3px;
-}
-
-#button {
-    text-align: center;
-    padding: 30px;
+    background-color: rgba(18, 17, 16, 0.92);
 }
 
 footer {
@@ -66,7 +72,7 @@ footer {
     text-align: center;
     border: 1px solid white;
     letter-spacing: 3px;
-    width: 1100px;
+    width: 1000px;
     margin: auto;
     background-color: rgba(18, 17, 16, 0.92);
     padding-right: 5px;
@@ -79,7 +85,8 @@ footer {
 }
 
 #other-sites {
-    padding: 5px;
+    padding: 10px;
+    text-align: center;
 }
 
 .box-head {
@@ -96,11 +103,21 @@ footer {
     padding: 10px;
 }
 
+h3 {
+    padding: 0;
+    font-family: GothicByte;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    margin: 0px;
+}
+
 .box-body {
     color: bisque;
     font-family: PixelGamer;
     font-size: 20px;
     padding: 20px;
+    margin-top: 5px;
     border: 1px solid white;
     margin-bottom: 5px;
 }
