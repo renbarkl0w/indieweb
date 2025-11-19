@@ -72,6 +72,7 @@ header {
     letter-spacing: 1px;
     padding: 0px 5px 0px 5px;
     height: fit-content;
+    width: 310px;
 }
 
 .div4 {
@@ -116,8 +117,7 @@ footer {
 
 
 #image-box img {
-    width: 275px;
-    padding: 10px;
+    width: 250px;
 }
 
 #other-sites {
@@ -145,6 +145,16 @@ footer {
     padding: 20px;
     border: 1px solid white;
     margin-bottom: 5px;
+}
+
+#blinkies {
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+
+#link-me {
+    text-align: center;
 }
 
 .divider {
