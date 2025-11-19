@@ -10,7 +10,7 @@
 
 .parent {
     border: 1px solid white;
-    width: 40%;
+    width: 1100px;
     margin: auto;
     color: bisque;
     letter-spacing: 1px;
@@ -26,7 +26,7 @@ header {
     font-family: GothicByte;
     font-size: 70px;
     border: 1px solid white;
-    width: 40%;
+    width: 1100px;
     color: bisque;
     letter-spacing: 1px;
     background-color: rgba(18, 17, 16, 0.92);
@@ -63,7 +63,7 @@ footer {
     text-align: center;
     border: 1px solid white;
     letter-spacing: 3px;
-    width: 40%;
+    width: 1100px;
     margin: auto;
     background-color: rgba(18, 17, 16, 0.92);
     padding-right: 5px;
