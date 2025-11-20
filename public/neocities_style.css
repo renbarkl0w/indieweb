@@ -22,7 +22,6 @@
 header {
     color: bisque;
     margin: auto;
-    margin-top: 300px;
     font-family: GothicByte;
     font-size: 70px;
     border: 1px solid white;
@@ -48,6 +47,10 @@ header {
     font-size: 20px;
     padding: 20px;
     text-align: center;
+}
+
+#credits {
+    letter-spacing: 3px;
 }
 
 #button {
