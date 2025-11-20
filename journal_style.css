@@ -10,7 +10,7 @@
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 5px;
 
@@ -47,12 +47,11 @@ header {
     color: bisque;
     letter-spacing: 1px;
     padding: 0px 5px 0px 5px;
-    height: fit-content;
     background-color: rgba(18, 17, 16, 0.92);
 }
 
 .div2 {
-    grid-column: span 2 / span 2;
+    grid-column: span 3 / span 3;
 
     border: 2px dashed white;
     color: bisque;
@@ -62,6 +61,7 @@ header {
     font-size: 20px;
     padding: 20px;
     background-color: rgba(18, 17, 16, 0.92);
+    overflow-y: scroll;
 }
 
 footer {
