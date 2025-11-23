@@ -151,12 +151,23 @@ header {
 
 footer {
     color: bisque;
+    height: 80px;
     font-family: GothicByte;
     font-size: 20px;
     text-align: center;
-    border: 2px dashed white;
+    border: 1px solid white;
     letter-spacing: 3px;
-    margin-bottom: 5px;
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(18, 17, 16, 0.92);
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.home {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
 }
 
 a {

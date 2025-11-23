@@ -24,6 +24,14 @@
     background-color: rgba(18, 17, 16, 0.92);
 }
 
+.home {
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    float: left;
+}
+
 header {
     color: bisque;
     margin: auto;
@@ -66,7 +74,7 @@ header {
 
 footer {
     color: bisque;
-    height: 50px;
+    height: 80px;
     font-family: GothicByte;
     font-size: 20px;
     text-align: center;
