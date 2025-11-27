@@ -141,8 +141,15 @@ footer {
 }
 
 .home {
-    text-align: center;
-    margin: auto;
-    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+
+.home img {
+    padding-left: 10px;
+    padding-top: 10px;
 }
 

@@ -25,12 +25,41 @@
 }
 
 .home {
-    padding: 20px;
     width: fit-content;
     height: fit-content;
     margin: 0;
     float: left;
+    padding: 0;
 }
+
+.home img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#gr_updates_widget{
+    border-radius: 5px;
+    background-color: rgba(18, 17, 16, 0.92);
+    padding:15px 0 35px 15px;
+    width:250px;
+    height:330px;
+    margin: auto;
+}
+#gr_footer{
+    margin-bottom:10px;
+}
+#gr_updates_widget p{
+    padding:0px;
+    margin:0;
+    font-size:14px;
+}
+#gr_footer img{
+    width:100px;
+}
+#gr_updates_widget img{
+	border: 1px solid white
+}
+
 
 header {
     color: bisque;
@@ -85,12 +114,6 @@ footer {
     background-color: rgba(18, 17, 16, 0.92);
     padding-right: 5px;
     padding-left: 5px;
-}
-
-.home {
-    text-align: center;
-    margin: auto;
-    padding: 10px;
 }
 
 #image-box img {

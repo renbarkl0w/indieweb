@@ -56,7 +56,7 @@ header {
     border: 2px dashed white;
     color: bisque;
     letter-spacing: 1px;
-    height: fit-content;
+    height: 500px;
     font-family: PixelGamer;
     font-size: 20px;
     padding: 20px;
@@ -80,9 +80,16 @@ footer {
 }
 
 .home {
-    text-align: center;
-    margin: auto;
-    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+
+.home img {
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 #image-box img {
