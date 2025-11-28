@@ -101,6 +101,40 @@ header {
     background-color: rgba(18, 17, 16, 0.92);
 }
 
+.friend-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+
+    border: 1px solid white;
+    width: 610px;
+    margin: auto;
+    color: bisque;
+    letter-spacing: 1px;
+    padding: 5px;
+    height: fit-content;
+    background-color: rgba(18, 17, 16, 0.92);
+}
+
+.div3 {
+    border: 2px dashed white;
+    color: bisque;
+    letter-spacing: 1px;
+    padding: 0px 5px 0px 5px;
+    height: fit-content;
+    background-color: rgba(18, 17, 16, 0.92);
+}
+
+.div4 {
+    border: 2px dashed white;
+    color: bisque;
+    letter-spacing: 1px;
+    padding: 0px 5px 0px 5px;
+    height: fit-content;
+    background-color: rgba(18, 17, 16, 0.92);
+}
+
 footer {
     color: bisque;
     height: 80px;
