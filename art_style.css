@@ -28,86 +28,93 @@ h3 {
 
 header {
     color: bisque;
-    text-align: center;
     margin: auto;
-    font-family: PixelGamer;
-    font-size: 20px;
-    padding: 5px;
-    max-width: 60%;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.info-box {
-    text-align: left;
-    font-family: PixelGamer;
-    font-size: 20px;
-}
-
-
-.container {
-    border: 2px dashed white;
-    align-content: center;
-    max-width: 100%;
-    margin: auto;
-    color: bisque;
-    letter-spacing: 1px;
-}
-
-#page {
-    border: 2px dashed white;
-    align-content: center;
-    width: 90%;
-    margin: auto;
+    margin-top: 50px;
+    font-family: GothicByte;
+    font-size: 70px;
+    border: 1px solid white;
+    width: 1000px;
     color: bisque;
     letter-spacing: 1px;
     background-color: rgba(18, 17, 16, 0.92);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
 }
 
 .title {
+    font-family: PixelGamer;
     font-size: 20px;
     font-style: italic;
+    text-align: center;
 }
 
 .info {
+    font-family: PixelGamer;
     font-size: 15px;
     font-style: normal;
+    text-align: center;
 }
 
-.grid-container {
-  columns: 3 200px;
-  column-gap: 1.5rem;
-  width: 90%;
-  margin: 0 auto;
-  div {
-    width: 150px;
-    margin: 0 1.5rem 1.5rem 0;
-    display: inline-block;
-    width: 100%;
-    border: dashed 2px white;
-    padding: 5px;
-  }
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 1200px;
+    margin: auto;
+}
+
+.info-box {
+    text-align: center;
+    font-family: PixelGamer;
+    font-size: 20px;
+    width: 300px;
+}
+
+.gallery-container {
+    grid-column: span 3 / span 3;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
     
-    img {
-      width: 100%;
-    }
+    margin: auto;
+    width: 900px;
+    border: 2px solid white;
+    color: bisque;
+    letter-spacing: 1px;
+    background-color: rgba(18, 17, 16, 0.92);
+    padding: 5px;
+}
 
-    img:hover {
-        transform: scale(1.5);
-    }
+.gallery-item {
+    flex: auto;
+    border: 2px dashed white;
+    width: 275px;
+    height: fit-content;
+    padding: 5px;
+}
 
-    p {
-      margin: 5px 0;
-      padding: 0;
-      text-align: center;
-      font-family: PixelGamer;
-    }
-  }
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.box {
+    border: 2px solid white;
+    color: bisque;
+    letter-spacing: 1px;
+    height: fit-content;
+    font-family: PixelGamer;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgba(18, 17, 16, 0.92);
+}
 
 a {
     color: #ffe4c4;
@@ -133,7 +140,7 @@ footer {
     text-align: center;
     border: 1px solid white;
     letter-spacing: 3px;
-    width: 1000px;
+    width: 900px;
     margin: auto;
     background-color: rgba(18, 17, 16, 0.92);
     padding-right: 5px;
